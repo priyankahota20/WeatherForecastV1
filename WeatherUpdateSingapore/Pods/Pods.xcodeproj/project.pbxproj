@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 432269212CA7661476954A7A4DAA814D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+				942DFFF130A9500FD868DB7E68CB3859 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0757F50A634DB2DCF7184D077AC0DF04 /* Pods-WeatherUpdateSingaporeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B72FA94C3B98E9ED5352DF18EAA0C9D /* Pods-WeatherUpdateSingaporeTests-dummy.m */; };
+		0C41C115B5071CEFE331E8B7D5A736E6 /* Pods-WeatherUpdateSingapore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C59F9A03E498715E18E999DBC1D4C8F5 /* Pods-WeatherUpdateSingapore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44063EDDBA59FE1652B7826890BB7B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8486D72009EFB51DD3489AE2121339EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8F055C5122EB320A948B4829D615D167 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E372CFAA54DD157E6F79716461D05B84 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-dummy.m */; };
+		9378C0241A068E76E3AA143DFEF7AED4 /* Pods-WeatherUpdateSingaporeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 952A4B220ED58B8D511EFCD7773FF0E8 /* Pods-WeatherUpdateSingaporeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74066F4D95F24DFE2E9826B4B828AC2 /* Pods-WeatherUpdateSingapore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94222588101A18891243207204D971E4 /* Pods-WeatherUpdateSingapore-dummy.m */; };
+		FA70CC106C8821D81D7E9F59A928E305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FF266C1F73760E69C23EC94B49E54002 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA43727B53FC990D1793A3CC6E430F6 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2F5C484BDAF9906E17FD4F3F738B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		E63896AF49140869769EA5A094FF4C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		F42DF46ADCBE220421115FCB941BE577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3D22DAE13E15999C88F5DC3DB9D611;
+			remoteInfo = "Pods-WeatherUpdateSingapore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0438B443672BD9041DE606436238A24A /* Pods-WeatherUpdateSingapore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherUpdateSingapore.release.xcconfig"; sourceTree = "<group>"; };
+		091E4C23CB4D7C3961685F954A2F09CC /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-Info.plist"; sourceTree = "<group>"; };
+		094F59C9D5A4744425C122546A62C2CA /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-resources.sh"; sourceTree = "<group>"; };
+		226D27EDB275445A0093144965EFB301 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.modulemap"; sourceTree = "<group>"; };
+		301433380FECA3FE79152D5A623ABAB3 /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
+		3A3AD44613F9CAFA63F7BDFFB04BCB16 /* Pods-WeatherUpdateSingapore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherUpdateSingapore.debug.xcconfig"; sourceTree = "<group>"; };
+		43EA7D17120008BE07A85C687DB6DD6F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		4E3A027002489EDCB9A870AFD00FCEF5 /* Pods-WeatherUpdateSingapore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherUpdateSingapore-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E9A19D793E8F5C931B05AD73C7AD66E /* Pods-WeatherUpdateSingaporeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherUpdateSingaporeTests.modulemap"; sourceTree = "<group>"; };
+		4FCDC4B677D2E160382970E704EBD3C0 /* Pods-WeatherUpdateSingaporeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherUpdateSingaporeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5477E8363AFF8E36AAAECC9C4881B9B5 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59E6FE59D5F3D68B625433CA9235E808 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		775BE95201FA2E540CBA29805638E305 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77B5BD5538F4D3A4F12FFAC10B5C6E23 /* Pods-WeatherUpdateSingapore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherUpdateSingapore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79417871583D4B6EE78D1872C50B78DF /* Pods-WeatherUpdateSingapore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherUpdateSingapore-Info.plist"; sourceTree = "<group>"; };
+		7B72FA94C3B98E9ED5352DF18EAA0C9D /* Pods-WeatherUpdateSingaporeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherUpdateSingaporeTests-dummy.m"; sourceTree = "<group>"; };
+		7D0956E98D2C3E22835FB7C92EADFA78 /* Pods-WeatherUpdateSingapore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherUpdateSingapore.modulemap"; sourceTree = "<group>"; };
+		7E15B2B003AF68D7C47C12AC3F5430CA /* Pods-WeatherUpdateSingapore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherUpdateSingapore-resources.sh"; sourceTree = "<group>"; };
+		91F2A70B2583F45EC36D6EF62B4382F2 /* Pods-WeatherUpdateSingaporeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherUpdateSingaporeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94222588101A18891243207204D971E4 /* Pods-WeatherUpdateSingapore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherUpdateSingapore-dummy.m"; sourceTree = "<group>"; };
+		952A4B220ED58B8D511EFCD7773FF0E8 /* Pods-WeatherUpdateSingaporeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherUpdateSingaporeTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA43727B53FC990D1793A3CC6E430F6 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-umbrella.h"; sourceTree = "<group>"; };
+		A0D87C3A90DA56CB58371F44F0D5A9A7 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		A34341473BA0C01D3049E41292C435A9 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3E4E177E9BDE04CE02FDC587B33F4D0 /* Pods-WeatherUpdateSingaporeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherUpdateSingaporeTests-Info.plist"; sourceTree = "<group>"; };
+		AC3D09A42013811F4501BF5D5CC89140 /* Pods-WeatherUpdateSingaporeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherUpdateSingaporeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AED96EA2878B0DC6FCD595001422F342 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests"; path = Pods_WeatherUpdateSingapore_WeatherUpdateSingaporeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59FA2C459F361617484EEE1714A4086 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2CFDD7C98B818A239B2A7424B44F82F /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		C59F9A03E498715E18E999DBC1D4C8F5 /* Pods-WeatherUpdateSingapore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherUpdateSingapore-umbrella.h"; sourceTree = "<group>"; };
+		DA59A0E8A869F3AEB754574D53381785 /* Pods-WeatherUpdateSingaporeTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeatherUpdateSingaporeTests"; path = Pods_WeatherUpdateSingaporeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC73FC96531CCC31CC69DE936A30001 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		DB7B2CDE15B6520CC496510C945BC538 /* Pods-WeatherUpdateSingaporeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherUpdateSingaporeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E372CFAA54DD157E6F79716461D05B84 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-dummy.m"; sourceTree = "<group>"; };
+		E530F1D3A209832F1FC30C4D762FECDC /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		EFEE9849B7C7AD87C2D966A65C2BE002 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		F48617266C74D79C03F2FC8A08B1FC80 /* Pods-WeatherUpdateSingapore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeatherUpdateSingapore"; path = Pods_WeatherUpdateSingapore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B4D3D493613B4702449F6381FAABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44063EDDBA59FE1652B7826890BB7B22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6814F86B7F58441511B00CE75C69E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8486D72009EFB51DD3489AE2121339EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BB80F3FE11CA05FBAFA7A8B5EFB6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA70CC106C8821D81D7E9F59A928E305 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057DFA261AFC62358E9FF1892337B4AA /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BBCEACFD88CE966A3F4174134992F969 /* Frameworks */,
+				EAB3551C3FF2B3DB8CCFFBC1659C14FE /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		06A07CA45D1AA9FC9F23E1D2943CEC4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DABC705A4F93441144299167BBCD013A /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0B64D21C1BB6636E77113D602D95471A /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				06A07CA45D1AA9FC9F23E1D2943CEC4A /* Base */,
+				057DFA261AFC62358E9FF1892337B4AA /* Maps */,
+				1A6C3A5BCEC44910DA49DDD175DABCE2 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		1A6C3A5BCEC44910DA49DDD175DABCE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				301433380FECA3FE79152D5A623ABAB3 /* GoogleMaps-xcframeworks.sh */,
+				59E6FE59D5F3D68B625433CA9235E808 /* GoogleMaps.debug.xcconfig */,
+				E530F1D3A209832F1FC30C4D762FECDC /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		3EC68BCE79BDFD2450C3F2D893C9A19F /* Pods-WeatherUpdateSingaporeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A19D793E8F5C931B05AD73C7AD66E /* Pods-WeatherUpdateSingaporeTests.modulemap */,
+				91F2A70B2583F45EC36D6EF62B4382F2 /* Pods-WeatherUpdateSingaporeTests-acknowledgements.markdown */,
+				4FCDC4B677D2E160382970E704EBD3C0 /* Pods-WeatherUpdateSingaporeTests-acknowledgements.plist */,
+				7B72FA94C3B98E9ED5352DF18EAA0C9D /* Pods-WeatherUpdateSingaporeTests-dummy.m */,
+				A3E4E177E9BDE04CE02FDC587B33F4D0 /* Pods-WeatherUpdateSingaporeTests-Info.plist */,
+				952A4B220ED58B8D511EFCD7773FF0E8 /* Pods-WeatherUpdateSingaporeTests-umbrella.h */,
+				DB7B2CDE15B6520CC496510C945BC538 /* Pods-WeatherUpdateSingaporeTests.debug.xcconfig */,
+				AC3D09A42013811F4501BF5D5CC89140 /* Pods-WeatherUpdateSingaporeTests.release.xcconfig */,
+			);
+			name = "Pods-WeatherUpdateSingaporeTests";
+			path = "Target Support Files/Pods-WeatherUpdateSingaporeTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		687F229D56D4D3B416E561582C1C6822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48617266C74D79C03F2FC8A08B1FC80 /* Pods-WeatherUpdateSingapore */,
+				AED96EA2878B0DC6FCD595001422F342 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */,
+				DA59A0E8A869F3AEB754574D53381785 /* Pods-WeatherUpdateSingaporeTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71568F905E8E26323300613E14E2F556 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E66D721A6349407F08E633B8BD36D9E4 /* Pods-WeatherUpdateSingapore */,
+				ACBD7F0E86B1FE9838D4632CF57D9573 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */,
+				3EC68BCE79BDFD2450C3F2D893C9A19F /* Pods-WeatherUpdateSingaporeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACBD7F0E86B1FE9838D4632CF57D9573 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				226D27EDB275445A0093144965EFB301 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.modulemap */,
+				5477E8363AFF8E36AAAECC9C4881B9B5 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-acknowledgements.markdown */,
+				775BE95201FA2E540CBA29805638E305 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-acknowledgements.plist */,
+				E372CFAA54DD157E6F79716461D05B84 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-dummy.m */,
+				091E4C23CB4D7C3961685F954A2F09CC /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-Info.plist */,
+				094F59C9D5A4744425C122546A62C2CA /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-resources.sh */,
+				9EA43727B53FC990D1793A3CC6E430F6 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-umbrella.h */,
+				B59FA2C459F361617484EEE1714A4086 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.debug.xcconfig */,
+				A34341473BA0C01D3049E41292C435A9 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.release.xcconfig */,
+			);
+			name = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests";
+			path = "Target Support Files/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests";
+			sourceTree = "<group>";
+		};
+		BBCEACFD88CE966A3F4174134992F969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D87C3A90DA56CB58371F44F0D5A9A7 /* GoogleMaps.xcframework */,
+				DAC73FC96531CCC31CC69DE936A30001 /* GoogleMapsCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				687F229D56D4D3B416E561582C1C6822 /* Products */,
+				71568F905E8E26323300613E14E2F556 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABC705A4F93441144299167BBCD013A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFDD7C98B818A239B2A7424B44F82F /* GoogleMapsBase.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B64D21C1BB6636E77113D602D95471A /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E66D721A6349407F08E633B8BD36D9E4 /* Pods-WeatherUpdateSingapore */ = {
+			isa = PBXGroup;
+			children = (
+				7D0956E98D2C3E22835FB7C92EADFA78 /* Pods-WeatherUpdateSingapore.modulemap */,
+				77B5BD5538F4D3A4F12FFAC10B5C6E23 /* Pods-WeatherUpdateSingapore-acknowledgements.markdown */,
+				4E3A027002489EDCB9A870AFD00FCEF5 /* Pods-WeatherUpdateSingapore-acknowledgements.plist */,
+				94222588101A18891243207204D971E4 /* Pods-WeatherUpdateSingapore-dummy.m */,
+				79417871583D4B6EE78D1872C50B78DF /* Pods-WeatherUpdateSingapore-Info.plist */,
+				7E15B2B003AF68D7C47C12AC3F5430CA /* Pods-WeatherUpdateSingapore-resources.sh */,
+				C59F9A03E498715E18E999DBC1D4C8F5 /* Pods-WeatherUpdateSingapore-umbrella.h */,
+				3A3AD44613F9CAFA63F7BDFFB04BCB16 /* Pods-WeatherUpdateSingapore.debug.xcconfig */,
+				0438B443672BD9041DE606436238A24A /* Pods-WeatherUpdateSingapore.release.xcconfig */,
+			);
+			name = "Pods-WeatherUpdateSingapore";
+			path = "Target Support Files/Pods-WeatherUpdateSingapore";
+			sourceTree = "<group>";
+		};
+		EAB3551C3FF2B3DB8CCFFBC1659C14FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43EA7D17120008BE07A85C687DB6DD6F /* GoogleMaps.bundle */,
+				EFEE9849B7C7AD87C2D966A65C2BE002 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36C977851DA12D1DAD2D043A854C37D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF266C1F73760E69C23EC94B49E54002 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BDA3E6C9801A6C84A262B70CA52C21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C41C115B5071CEFE331E8B7D5A736E6 /* Pods-WeatherUpdateSingapore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04CE40844B8CDD99C8B54BF4E862424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9378C0241A068E76E3AA143DFEF7AED4 /* Pods-WeatherUpdateSingaporeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25EFEDF99827760C6AE42BF44ED2109E /* Pods-WeatherUpdateSingaporeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B4551DEFD231763A126C043014A59E /* Build configuration list for PBXNativeTarget "Pods-WeatherUpdateSingaporeTests" */;
+			buildPhases = (
+				F04CE40844B8CDD99C8B54BF4E862424 /* Headers */,
+				D888009BDD132AED8606CBC034901754 /* Sources */,
+				88B4D3D493613B4702449F6381FAABED /* Frameworks */,
+				4341402953F5945D4301CE0149A328C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811B0C8AEFACC6234F7920AF86FAB7F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherUpdateSingaporeTests";
+			productName = Pods_WeatherUpdateSingaporeTests;
+			productReference = DA59A0E8A869F3AEB754574D53381785 /* Pods-WeatherUpdateSingaporeTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF3D22DAE13E15999C88F5DC3DB9D611 /* Pods-WeatherUpdateSingapore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C93061801A7F61D2E1414C2EC98E7A5 /* Build configuration list for PBXNativeTarget "Pods-WeatherUpdateSingapore" */;
+			buildPhases = (
+				51BDA3E6C9801A6C84A262B70CA52C21 /* Headers */,
+				766DD8342776BC1C6FE9AC13907F9E67 /* Sources */,
+				F1BB80F3FE11CA05FBAFA7A8B5EFB6A8 /* Frameworks */,
+				2ED69C9FD71C0E602CE307212467DAF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B1DD0BB211A3CB35AEC962155AC5A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherUpdateSingapore";
+			productName = Pods_WeatherUpdateSingapore;
+			productReference = F48617266C74D79C03F2FC8A08B1FC80 /* Pods-WeatherUpdateSingapore */;
+			productType = "com.apple.product-type.framework";
+		};
+		E85040A6B642F35304F04593064B9C39 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FE03F3ACF8021ACCDA4CCE26C7EC67 /* Build configuration list for PBXNativeTarget "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests" */;
+			buildPhases = (
+				36C977851DA12D1DAD2D043A854C37D5 /* Headers */,
+				783B1A53290CEAF20F60849251704269 /* Sources */,
+				B6814F86B7F58441511B00CE75C69E20 /* Frameworks */,
+				2868171DED4A98298AE6B8741D9FCDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E488DC5286E8FE1C5AA8B596F9A6666 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests";
+			productName = Pods_WeatherUpdateSingapore_WeatherUpdateSingaporeUITests;
+			productReference = AED96EA2878B0DC6FCD595001422F342 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 687F229D56D4D3B416E561582C1C6822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				BF3D22DAE13E15999C88F5DC3DB9D611 /* Pods-WeatherUpdateSingapore */,
+				E85040A6B642F35304F04593064B9C39 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests */,
+				25EFEDF99827760C6AE42BF44ED2109E /* Pods-WeatherUpdateSingaporeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2868171DED4A98298AE6B8741D9FCDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED69C9FD71C0E602CE307212467DAF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4341402953F5945D4301CE0149A328C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		942DFFF130A9500FD868DB7E68CB3859 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		766DD8342776BC1C6FE9AC13907F9E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74066F4D95F24DFE2E9826B4B828AC2 /* Pods-WeatherUpdateSingapore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B1A53290CEAF20F60849251704269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F055C5122EB320A948B4829D615D167 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D888009BDD132AED8606CBC034901754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0757F50A634DB2DCF7184D077AC0DF04 /* Pods-WeatherUpdateSingaporeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B1DD0BB211A3CB35AEC962155AC5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = E63896AF49140869769EA5A094FF4C5E /* PBXContainerItemProxy */;
+		};
+		1E488DC5286E8FE1C5AA8B596F9A6666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 9F2F5C484BDAF9906E17FD4F3F738B54 /* PBXContainerItemProxy */;
+		};
+		811B0C8AEFACC6234F7920AF86FAB7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeatherUpdateSingapore";
+			target = BF3D22DAE13E15999C88F5DC3DB9D611 /* Pods-WeatherUpdateSingapore */;
+			targetProxy = F42DF46ADCBE220421115FCB941BE577 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		089A62FA901688C661F58AAE805A656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34341473BA0C01D3049E41292C435A9 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3F8F17A9ED7B971C178865FC57955861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0438B443672BD9041DE606436238A24A /* Pods-WeatherUpdateSingapore.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherUpdateSingapore/Pods-WeatherUpdateSingapore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherUpdateSingapore/Pods-WeatherUpdateSingapore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47DCCD80F78F4FC30298ECD5C6A29CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59FA2C459F361617484EEE1714A4086 /* Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests/Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EEF21E60BDA291DF414F54D2CE17D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3D09A42013811F4501BF5D5CC89140 /* Pods-WeatherUpdateSingaporeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherUpdateSingaporeTests/Pods-WeatherUpdateSingaporeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherUpdateSingaporeTests/Pods-WeatherUpdateSingaporeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0D32A92267F8EB045540F58A3FB9721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E530F1D3A209832F1FC30C4D762FECDC /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F9A3420493DDFF37FE086ABBB8AEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E6FE59D5F3D68B625433CA9235E808 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFC1B854864EE5D63E9FC6C5D95ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3AD44613F9CAFA63F7BDFFB04BCB16 /* Pods-WeatherUpdateSingapore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherUpdateSingapore/Pods-WeatherUpdateSingapore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherUpdateSingapore/Pods-WeatherUpdateSingapore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA5CDDB0F48B4DA95A7C3EB49C91708A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7B2CDE15B6520CC496510C945BC538 /* Pods-WeatherUpdateSingaporeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherUpdateSingaporeTests/Pods-WeatherUpdateSingaporeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherUpdateSingaporeTests/Pods-WeatherUpdateSingaporeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432269212CA7661476954A7A4DAA814D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F9A3420493DDFF37FE086ABBB8AEA5 /* Debug */,
+				A0D32A92267F8EB045540F58A3FB9721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B4551DEFD231763A126C043014A59E /* Build configuration list for PBXNativeTarget "Pods-WeatherUpdateSingaporeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5CDDB0F48B4DA95A7C3EB49C91708A /* Debug */,
+				7EEF21E60BDA291DF414F54D2CE17D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C93061801A7F61D2E1414C2EC98E7A5 /* Build configuration list for PBXNativeTarget "Pods-WeatherUpdateSingapore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFC1B854864EE5D63E9FC6C5D95ECCB /* Debug */,
+				3F8F17A9ED7B971C178865FC57955861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FE03F3ACF8021ACCDA4CCE26C7EC67 /* Build configuration list for PBXNativeTarget "Pods-WeatherUpdateSingapore-WeatherUpdateSingaporeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DCCD80F78F4FC30298ECD5C6A29CFF /* Debug */,
+				089A62FA901688C661F58AAE805A656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

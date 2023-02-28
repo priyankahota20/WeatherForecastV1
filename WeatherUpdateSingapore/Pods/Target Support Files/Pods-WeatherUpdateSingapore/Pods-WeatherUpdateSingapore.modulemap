@@ -1,0 +1,6 @@
+framework module Pods_WeatherUpdateSingapore {
+  umbrella header "Pods-WeatherUpdateSingapore-umbrella.h"
+
+  export *
+  module * { export * }
+}
